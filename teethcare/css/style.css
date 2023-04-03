@@ -227,7 +227,7 @@ button {
     width: 100%;
     float: left;
     padding: 20px 0px 0px 0px;
-     background-image: url(../images/banner-bg.png);
+     background-image: url(../images/fundo.avif);
      height: auto;
      background-size: 100%;
 }
@@ -769,4 +769,14 @@ input.email_bt_2::placeholder {
     padding-top: 90px;
     width: 100%;
     float: left;
+}
+
+
+
+/*------------------------------------------*/
+
+/*----Topo----*/
+
+.a-text-logo {
+     font-size: 2.3em;
 }

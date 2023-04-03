@@ -200,7 +200,7 @@ right: -221px;
 .navbar-toggler { background-color: #fff; }
 .mail_menu li { font-size: 14px; padding-left: 10px; }
 .mail_menu { width: 100%; }
-.header_top { background-size: cover; background-image: url(../images/banner-bg1.png);}
+.header_top { background-size: cover; background-image: url(../images/fundo.avif);}
 .banner_taital { font-size: 40px; }
 .routine_taital { font-size: 30px; }
 .header_section { padding-top: 15px; } 
@@ -265,7 +265,7 @@ padding: 126px 40px;
 }
 
 .navbar-toggler { background-color: #fff; }
-.header_top { background-size: cover; background-image: url(../images/banner-bg1.png);}
+.header_top { background-size: cover; background-image: url(../images/fundo.avif);}
 .mail_menu { display: none; }
 .logo{ text-align: center; }
 .header_section { padding-top: 10px; }
@@ -378,7 +378,7 @@ ul.link li {
     padding-bottom: 0px; 
 }
 .navbar-toggler { background-color: #fff; }
-.header_top { background-size: cover; background-image: url(../images/banner-bg1.png);}
+.header_top { background-size: cover; background-image: url(../images/fundo.avif);}
 .mail_menu { display: none; }
 .logo{ text-align: center; }
 .header_section { padding-top: 10px; }
@@ -410,4 +410,16 @@ ul.link li {
 .image_4 { text-align: center; }
 
 
+}
+
+
+/*------------------------------------------*/
+
+/*----logo topo----*/
+
+@media (min-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
