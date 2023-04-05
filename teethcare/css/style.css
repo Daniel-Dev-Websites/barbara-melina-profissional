@@ -15,6 +15,15 @@ src: url("../fonts/Lato-Regular.ttf");
  ----------------------------------------*****/
 
 
+ :root {
+
+     --rosaClaro: #D9ADC5;
+     --rosaMedio: #8C3565;
+     --rosaEscuro: #732D53;
+     --preto: #40353B;
+     --whiteS: #F2F2F2;
+   }
+
 /*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
 
 @import url(animate.min.css);
@@ -779,4 +788,31 @@ input.email_bt_2::placeholder {
 
 .a-text-logo {
      font-size: 2.3em;
+     color: white;
 }
+
+.a-text-logo:hover {
+     color: white;
+}
+
+.border_bottom_0 {
+     border-bottom: 2px solid var(--whiteS);
+     padding-bottom: 20px;
+}
+
+.navbar-toggler {
+     background-color: var(--whiteS) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+     text-align: center;
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 2px 15px !important;
+     border-radius:0px 0px 7px 7px;
+ }
+
+.navbar-light .navbar-nav .nav-link:hover {
+     color: var(--rosaEscuro);
+     background-color: var(--whiteS);
+ }
